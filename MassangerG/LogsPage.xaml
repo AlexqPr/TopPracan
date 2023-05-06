@@ -1,0 +1,29 @@
+﻿<Page x:Class="MassangerG.LogsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MassangerG"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+   xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      Title="LogsPage">
+
+    <Grid Background="#1B262C">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+
+        </Grid.ColumnDefinitions>
+        <Rectangle Grid.Row="0" Grid.Column="0" Fill="#1E2D36"/>
+
+
+        <StackPanel Grid.Column="0" Grid.Row="0">
+            <ListBox x:Name="LogsListBox" Foreground="White">
+               
+            </ListBox>
+        </StackPanel>
+    </Grid>
+</Page>
